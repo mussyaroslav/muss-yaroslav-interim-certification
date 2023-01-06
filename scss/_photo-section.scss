@@ -1,0 +1,52 @@
+.photo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $main-dark;
+  width: 100%;
+  h1 {
+    font-size: 64px;
+    font-weight: 400;
+    color: white;
+    padding: 14px 0;
+  }
+}
+
+.section-left {
+  height: 100vh;
+  width: 33.3%;
+}
+
+.photo {
+  background-image: url(../img/Chel.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1440px) {
+  .photo-title {
+    h1 {
+      font-size: 36px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-left {
+    width: 100%;
+    padding: 0 75px;
+  } 
+}
+
+@media screen and (max-width: 540px) {
+  .photo-title {
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
