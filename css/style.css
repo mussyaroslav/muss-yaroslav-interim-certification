@@ -10,7 +10,6 @@
   font-weight: 500;
   src: local("Roboto"), url(../fonts/Roboto-Medium.ttf);
 }
-
 html {
   scroll-behavior: smooth;
 }
@@ -86,6 +85,9 @@ p, h1, h2, h3, h4, h5, h5 {
 @media screen and (max-width: 540px) {
   .photo-title h1 {
     font-size: 24px;
+  }
+  .section-left {
+    padding: 0 16px;
   }
 }
 .section-right {
@@ -258,6 +260,9 @@ button:hover {
   }
 }
 @media screen and (max-width: 540px) {
+  .section-right {
+    padding: 16px;
+  }
   .fullname-block h2 {
     font-size: 24px;
   }

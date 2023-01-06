@@ -191,6 +191,10 @@ button:hover {
 }
 
 @media screen and (max-width: 540px) {
+  .section-right {
+    padding: 16px;
+  }
+
   .fullname-block {
     h2 {
       font-size: 24px;
